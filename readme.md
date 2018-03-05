@@ -16,9 +16,23 @@
 1.2.3 Rear Suspension|
 1.2.3.1 Spring|
 1.2.3.2 Damper|
--|
 1.2.3.3 Linkages|
+
+
 # 1.1 Chassis
+# 1.2 Steering and Suspension
+## 1.2.1 Steering
+### 1.2.1.1 Actuation system
+### 1.2.1.2 Linkages
+### 1.2.1.3 Damping
+## 1.2.2 Front Suspension
+### 1.2.2.1 Spring
+### 1.2.2.2 Damper
+### 1.2.2.3 Linkages
+## 1.2.3 Rear Suspension
+### 1.2.3.1 Spring
+### 1.2.3.2 Damper
+### 1.2.3.3 Linkages
 # 1.3 Drivetrain
 ##    1.3.1 Motor
 ##    1.3.2 Gearing
