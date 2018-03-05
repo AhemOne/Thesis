@@ -3,7 +3,7 @@
 
 **Contents**|
 --------------------|
-1.1 [Chassis](readme.mb#11Chassis)|
+1.1 [Chassis](readme.md#11-chassis)|
 1.2 Steering and Suspension|
 1.2.1 Steering|
 1.2.1.1 Actuation system|
