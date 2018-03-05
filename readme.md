@@ -18,6 +18,7 @@
 1.2.3.2 Damper|
 -|
 1.2.3.3 Linkages|
+# 1.1 Chassis
 # 1.3 Drivetrain
 ##    1.3.1 Motor
 ##    1.3.2 Gearing
