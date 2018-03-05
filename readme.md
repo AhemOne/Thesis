@@ -4,19 +4,19 @@
 **Contents**|
 --------------------|
 1.1 [Chassis](readme.md#11-chassis)|
-1.2 Steering and Suspension|
-1.2.1 Steering|
-1.2.1.1 Actuation system|
-1.2.1.2 Linkages|
-1.2.1.3 Damping|
-1.2.2 Front Suspension|
-1.2.2.1 Spring|
-1.2.2.2 Damper|
-1.2.2.3 Linkages|
-1.2.3 Rear Suspension|
-1.2.3.1 Spring|
-1.2.3.2 Damper|
-1.2.3.3 Linkages|
+1.2 [Steering and Suspension](readme.md#12-steering-and-suspension)|
+1.2.1 [Steering](121-steering)|
+1.2.1.1 [Actuation system](1211-actuation-system)|
+1.2.1.2 [Linkages](1212-linkages)|
+1.2.1.3 [Damping](1213-damping)|
+1.2.2 [Front Suspension](122-front-suspension)|
+1.2.2.1 [Spring](1221-spring)|
+1.2.2.2 [Damper](1222-damper)|
+1.2.2.3 [Linkages](1223-linkages)|
+1.2.3 [Rear Suspension](123-rear-suspension)|
+1.2.3.1 [Spring](1231-spring)|
+1.2.3.2 [Damper](1232-damper)|
+1.2.3.3 [Linkages](1233-linkages)|
 
 
 # 1.1 Chassis
