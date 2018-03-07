@@ -1,4 +1,8 @@
-**Jesse Falzon - UNSW - Dr. C. Menictas**
+**By: Jesse Falzon**
+
+**Supervisor: Dr. C. Menictas**
+
+University of New South Wales, Sydney. Year started: 2018
 
 | **Contents** |
 |--------------|
