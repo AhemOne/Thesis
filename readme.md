@@ -1,8 +1,8 @@
-# 1. Thesis
 **Jesse Falzon - UNSW - Dr. C. Menictas**
 
 **Contents**|
 --------------------|
+1. [Thesis](readme.md#1-thesis)|
 1.1 [Chassis](readme.md#11-chassis)|
 1.2 [Steering and Suspension](readme.md#12-steering-and-suspension)|
 1.2.1 [Steering](readme.md#121-steering)|
@@ -35,8 +35,14 @@
 1.5.7 [Processing](readme.md#157-processing)|
 1.5.8 [Telemetrics](readme.md#158-telemetrics)|
 
+# 1. Thesis
+
+Current record holder: http://www.guinnessworldrecords.com/world-records/fastest-battery-powered-remote-controlled-model-car-(rc)
 
 # 1.1 Chassis
+
+  The Chassis is designed to support all parts 
+
 # 1.2 Steering and Suspension
 ## 1.2.1 Steering
 ### 1.2.1.1 Actuation system
@@ -67,3 +73,5 @@
 ##    1.5.6 Sensors
 ##    1.5.7 Processing
 ##    1.5.8 Telemetrics
+
+
