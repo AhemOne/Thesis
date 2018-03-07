@@ -1,8 +1,8 @@
 **Jesse Falzon - UNSW - Dr. C. Menictas**
 
-**Contents**|
---------------------|
-1. [Thesis](readme.md#1-thesis)|
+**Contents** |
+-------|
+1. [Thesis](readme.md#1-thesis) |
 1.1 [Chassis](readme.md#11-chassis)|
 1.2 [Steering and Suspension](readme.md#12-steering-and-suspension)|
 1.2.1 [Steering](readme.md#121-steering)|
