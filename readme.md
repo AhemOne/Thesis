@@ -52,7 +52,7 @@ The current state of the art:
 
 This can be summarised as:
 - Record speed: 325 km/h
-- streamlined body, based off [Team Associated] TC3 chassis (now discontinuted)
+- streamlined body, based off [Team Associated](https://www.teamassociated.com) TC3 chassis (now discontinuted)
   - body was lengthened
   - TC => Touring Car
 
