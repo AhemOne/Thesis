@@ -44,15 +44,17 @@ University of New South Wales, Sydney. Year started: 2018
 
 #     1. Thesis
 
-[Current record holder](http://www.guinnessworldrecords.com/world-records/fastest-battery-powered-remote-controlled-model-car-(rc))
+The current state of the art:
+- [Current record holder](http://www.guinnessworldrecords.com/world-records/fastest-battery-powered-remote-controlled-model-car-(rc))
+- [Internals](https://wheels.blogs.nytimes.com/2011/07/18/remotely-hobbyist-takes-control-of-a-tiny-200-m-p-h-super-car/)
+- [Small info. nuggets](https://www.rcgroups.com/forums/showthread.php?2038871-New-Guinness-World-Record%C2%97FASTEST-BATTERY-POWERED-RC-CAR)
+- [nuggets 2](http://www.redrc.net/2009/10/guinness-certifies-nic-case’s-speed-record/)
 
-[Internals](https://wheels.blogs.nytimes.com/2011/07/18/remotely-hobbyist-takes-control-of-a-tiny-200-m-p-h-super-car/)
-
-[Small info. nuggets](https://www.rcgroups.com/forums/showthread.php?2038871-New-Guinness-World-Record%C2%97FASTEST-BATTERY-POWERED-RC-CAR)
-
-[nuggets 2](http://www.redrc.net/2009/10/guinness-certifies-nic-case’s-speed-record/)
-
-
+This can be summarised as:
+- Record speed: 325 km/h
+- streamlined body, based off [Team Associated] TC3 chassis (now discontinuted)
+  - body was lengthened
+  - TC => Touring Car
 
 
 ##    1.1 Chassis
