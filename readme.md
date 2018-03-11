@@ -25,23 +25,35 @@ University of New South Wales, Sydney. Year started: 2018
 | 1.3.1 [Motor](readme.md#131-motor) |
 | 1.3.2 [Gearing](readme.md#132-gearing) |
 | 1.3.3 [Rotational transmission](readme.md#133-rotational-transmission) |
-| 1.4 [Outer Shell](readme.md#14-outer-shell) |
-| 1.4.1 [Shell](readme.md#141-shell) |
-| 1.4.2 [Undercarriage](readme.md#142-undercarriage) |
-| 1.4.3 [Active](readme.md#143-active) |
-| 1.5 [Electrical systems](readme.md#15-electrical-systems) |
-| 1.5.1 [Energy Source](readme.md#151-energy-source) |
-| 1.5.2 [Wiring loom](readme.md#152-wiring-loom) |
-| 1.5.3 [Motor controller](readme.md#153-motor-controller) |
-| 1.5.4 [Steering controller](readme.md#154-steering-controller) |
-| 1.5.5 [Active system controls](readme.md#155-active-system-controls) |
-| 1.5.6 [Sensors](readme.md#156-sensors) |
-| 1.5.7 [Processing](readme.md#157-processing) |
-| 1.5.8 [Telemetrics](readme.md#158-telemetrics) |
+| 1.4 [Brakes](readme.md#14-brakes) |
+| 1.4.1 [Mechanical braking](readme.md#141-mechanical-braking) |
+| 1.4.2 [Aerodynamic braking](readme.md#142-aerodynamic-braking) |
+| 1.5 [Outer Shell](readme.md#15-outer-shell) |
+| 1.5.1 [Shell](readme.md#151-shell) |
+| 1.5.2 [Undercarriage](readme.md#152-undercarriage) |
+| 1.5.3 [Active](readme.md#153-active) |
+| 1.6 [Electrical systems](readme.md#16-electrical-systems) |
+| 1.6.1 [Energy Source](readme.md#161-energy-source) |
+| 1.6.2 [Wiring loom](readme.md#162-wiring-loom) |
+| 1.6.3 [Motor controller](readme.md#163-motor-controller) |
+| 1.6.4 [Steering controller](readme.md#164-steering-controller) |
+| 1.6.5 [Active system controls](readme.md#165-active-system-controls) |
+| 1.6.6 [Sensors](readme.md#166-sensors) |
+| 1.6.7 [Processing](readme.md#167-processing) |
+| 1.6.8 [Telemetrics](readme.md#168-telemetrics) |
 
 #     1. Thesis
 
-Current record holder: http://www.guinnessworldrecords.com/world-records/fastest-battery-powered-remote-controlled-model-car-(rc)
+[Current record holder](http://www.guinnessworldrecords.com/world-records/fastest-battery-powered-remote-controlled-model-car-(rc))
+
+[Internals](https://wheels.blogs.nytimes.com/2011/07/18/remotely-hobbyist-takes-control-of-a-tiny-200-m-p-h-super-car/)
+
+[Small info. nuggets](https://www.rcgroups.com/forums/showthread.php?2038871-New-Guinness-World-Record%C2%97FASTEST-BATTERY-POWERED-RC-CAR)
+
+[nuggets 2](http://www.redrc.net/2009/10/guinness-certifies-nic-case’s-speed-record/)
+
+
+
 
 ##    1.1 Chassis
 
@@ -50,8 +62,28 @@ Current record holder: http://www.guinnessworldrecords.com/world-records/fastest
 ##    1.2 Steering and Suspension
 ###   1.2.1 Steering
 ####  1.2.1.1 Actuation system
+
+The functional requirements of steering actuation:
+- withstanding the forces applied without changing the positioning
+- have enough force to push against the the aforementioned forces to change positioning when required
+- light enough not to impose a large weight penalty to the vehicle
+- small enough not to intrude into the air space around the vehicle
+- large changes at low speed to minimise turning radius at low speeds
+- small changes at high speed to maximise stability and positional accuracy
+
 ####  1.2.1.2 Linkages
+
+The functional requirements of the linkages are:
+- light enough as to not impose a weight penalty to the vehicle
+- strong enough to withstand the applied forces
+- any exposed parts must be as aerodynamic as possible to minimise drag losses
+
 ####  1.2.1.3 Damping
+
+The functional requirements of the steering damping are:
+- must reduce the impact upon the linkages/actuators such that they are not damaged by bumps
+- must not impede the steering actuators from changing position quickly
+
 ###   1.2.2 Front Suspension
 ####  1.2.2.1 Spring
 ####  1.2.2.2 Damper
@@ -64,16 +96,19 @@ Current record holder: http://www.guinnessworldrecords.com/world-records/fastest
 ###   1.3.1 Motor
 ###   1.3.2 Gearing
 ###   1.3.3 Rotational transmission
-##    1.4 Outer Shell
-###   1.4.1 Shell
-###   1.4.2 Undercarriage
-###   1.4.3 Active
-##    1.5 Electrical systems
-###   1.5.1 Energy Source
-###   1.5.2 Wiring loom
-###   1.5.3 Motor controller
-###   1.5.4 Steering controller
-###   1.5.5 Active system controls
-###   1.5.6 Sensors
-###   1.5.7 Processing
-###   1.5.8 Telemetrics
+##    1.4 Brakes
+###   1.4.1 Mechanical braking
+###   1.4.2 Aerodynamic braking
+##    1.5 Outer Shell
+###   1.5.1 Shell
+###   1.5.2 Undercarriage
+###   1.5.3 Active
+##    1.6 Electrical systems
+###   1.6.1 Energy Source
+###   1.6.2 Wiring loom
+###   1.6.3 Motor controller
+###   1.6.4 Steering controller
+###   1.6.5 Active system controls
+###   1.6.6 Sensors
+###   1.6.7 Processing
+###   1.6.8 Telemetrics
