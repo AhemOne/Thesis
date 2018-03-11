@@ -55,7 +55,27 @@ This can be summarised as:
 - streamlined body, based off [Team Associated](https://www.teamassociated.com) TC3 chassis (now discontinuted)
   - body was lengthened
   - TC => Touring Car
+  
+Full size [record holders](https://www.livescience.com/32882-worlds-fastest-vehicles.html)
+- ThrustSSC - Land speed record holder
+  - 1,227.986 kph
+  - [Information from the makers](http://www.thrustssc.com/thrustssc/contents_frames.html)
+  - [BloodhoundSSC](http://www.bloodhoundssc.com/education) - next iteration from ThrustSSC
+  
+- The Bugatti Veyron Super Sport - Fastest production car
+  - 267.81 mph (431.072 kph). Set in 2010.
 
+- BUB - Lucky 7 Streamliner - Fastest motorcycle (official)
+  - 367.382 mph (591.244 kph). Set at Bonneville Speedway, Utah in 2009.
+
+- Top Oil-Ack Attack streamliner - Fastest motorcycle (unofficial)
+  - 376.363 mph (605.697 kph). Set at Bonneville Speedway, Utah in 2010.
+
+- Spirit of Australia speedboat - Fastest boat
+  - 317.596 mph (511.13 kph). Set in 1970.
+
+- Westland Lynx 800 G-Lynx - Fastest helicopter
+  - 249.1 mph (401 kph). Set in 1986.
 
 ##    1.1 Chassis
 
