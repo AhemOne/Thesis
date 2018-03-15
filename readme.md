@@ -42,6 +42,32 @@ University of New South Wales, Sydney. Year started: 2018
 | 1.6.7 [Processing](readme.md#167-processing) |
 | 1.6.8 [Telemetrics](readme.md#168-telemetrics) |
 
+# Gantt Chart
+
+|  Semester 1 objectives |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | MSB |
+|------------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|-----|
+| 1. Thesis              | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x   |
+| 1.1                    | x  | x  |    |    |    |    |    |    |    |    |    |    |    |     |
+
+|  Semester 2 objectives | MSB | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
+|------------------------|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 1. Thesis              | x   | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+
+note:
+- _MSB = Mid-semester break_
+- _Semester 2 starts with week 14_
+
 #     1. Thesis
 
 The current state of the art:
@@ -116,8 +142,26 @@ The functional requirements of the steering damping are:
 ####  1.2.3.3 Linkages
 ##    1.3 Drivetrain
 ###   1.3.1 Motor
+
+Jaycar motor:
+- Standard RC540 size motor (36mm x 50mm)
+- Brushless motor - 3300 rpm/Volt
+- Shaft Diameter - 3.175mm (1/8)
+
+Electronic Speed Controller Specifications:
+- Low battery voltage cut-off to protect LiPO batteries from damage
+- Over temperature protection
+- Max current - 75A
+- Battery Input - 7.2V Ni-MH, or 7.4V Li-Po
+
+Castle Creations motor:
+- [2028 extreme](http://www.castlecreations.com/en/2028-extreme-800kv-motor-060-0054-00)
+
 ###   1.3.2 Gearing
 ###   1.3.3 Rotational transmission
+- Driveshafts
+- Belts
+- differential
 ##    1.4 Brakes
 ###   1.4.1 Mechanical braking
 ###   1.4.2 Aerodynamic braking
