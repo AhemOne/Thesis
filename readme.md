@@ -25,6 +25,7 @@ University of New South Wales, Sydney. Year started: 2018
 | 1.3.1 [Motor](readme.md#131-motor) |
 | 1.3.2 [Gearing](readme.md#132-gearing) |
 | 1.3.3 [Rotational transmission](readme.md#133-rotational-transmission) |
+| 1.3.4 [Wheels](readme.md#134-wheels) |
 | 1.4 [Brakes](readme.md#14-brakes) |
 | 1.4.1 [Mechanical braking](readme.md#141-mechanical-braking) |
 | 1.4.2 [Aerodynamic braking](readme.md#142-aerodynamic-braking) |
@@ -44,10 +45,27 @@ University of New South Wales, Sydney. Year started: 2018
 
 # Gantt Chart
 
-|  Semester 1 objectives |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | MSB |
-|------------------------|----|----|----|----|----|----|----|----|----|----|----|----|----|-----|
-| 1. Thesis              | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x  | x   |
-| 1.1                    | x  | x  |    |    |    |    |    |    |    |    |    |    |    |     |
+The Gantt chart is left deliberately open, this is due to the synergistic design required by all the parts of the car. Instead major milestones have instead been marked such that they reflect the completion dates imposed on the project. Ultimately it is expected that a number of completed parts will require revision at times to increase their efficacy as the vehicle moves towards testing phases. While the design attempts to segment and remove as many dependencies as possible between subsections, it is impossible to treat these parts entirely as black boxes outside of taking each part down to a component level. This is somewhat possible on many of the pre-built items used in the project because there is no major design considerations placed upon these parts which warrant their inclusion.
+
+- acceleration
+- deceleration
+- steering
+- aerodynamics
+
+|  Semester 1 objectives | _1_ | _2_ | _3_ | *4* |  5  |  6  |  7  |  8  |  9  | 10  | 11  | 12  | 13  | MSB  |
+|------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
+| 1. Thesis              | x   |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x   |
+| 1.1 Chassis            |     |     |     |  x  |  x  |  x  |  x  |  x  |     |     |     |     |     |      |
+| 1.1.1 R and D          |     |     |  x  |  x  |  x  |     |     |     |     |     |     |     |     |      |
+| 1.2 Steering/Suspension|     |     |     |     |     |     |     |     |  x  |     |     |     |     |      |
+| 1.3 Drivetrain         |     |     |     |     |     |     |     |     |     |  x  |     |     |     |      |
+| 1.4 Brakes             |     |     |     |     |     |     |     |     |     |     |     |     |     |      |
+| 1.5 Outer shell        |     |     |     |     |     |     |     |     |     |     |     |     |     |      |
+| 1.6 Electrical Systems |     |     |     |     |     |     |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x   |
+| _motor controller_     |     |     |     |     |     |     |  x  |  x  |  x  |     |     |     |     |      |
+| _brake controller_     |     |     |     |     |     |     |     |  x  |  x  |  x  |     |     |     |      |
+| _steering controller_  |     |     |     |     |     |     |     |     |  x  |  x  |     |     |     |      |
+
 
 |  Semester 2 objectives | MSB | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 |
 |------------------------|-----|----|----|----|----|----|----|----|----|----|----|----|----|----|
@@ -58,15 +76,19 @@ University of New South Wales, Sydney. Year started: 2018
 | 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
-| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
-| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
-| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
-| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
-| 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
 
 note:
+- _Weeks marked in italic have passed_
 - _MSB = Mid-semester break_
 - _Semester 2 starts with week 14_
+
+Major aims include
+1) to have a running chassis by the end of semester 1 such that the frame may be driven by remote control. This includes:
+   - design and assembly of the structural components making the frame of the body
+   - the motor mounted and running by a self designed motor controller
+   - the drivetrain and suspension has been assembled and tested, excluding designs for the high speed wheels
+   - the steering is working satisfactorily enough to allow safe on-road testing
+   - the associated telemetry is at a stage which allows the remote control of the aforementioned aspects
 
 #     1. Thesis
 
@@ -102,6 +124,33 @@ Full size [record holders](https://www.livescience.com/32882-worlds-fastest-vehi
 
 - Westland Lynx 800 G-Lynx - Fastest helicopter
   - 249.1 mph (401 kph). Set in 1986.
+  
+(from wiki, find refs.)
+  George Poteet	Speed Demon streamliner	IC
+turbocharged Chevrolet Small Block [15]	439.562	707.408
+
+Don Vesco	Vesco Turbinator	Turboshaft	458.196	737.395	458.444	737.794
+
+because of the great scope of the project, an entire car will not be designed from the ground up. The following components will be reused:
+ - suspension
+ - steering
+ - differentials
+
+The following modifications will be made to a Traxxas XO-1 RC car:
+- custom chassis
+  - lengthened from original car to accomodate extra batteries, motor controllers
+  - space for larger wheels
+- front and rear motors, separately feeding diffs
+  - 2028 Extreme 800 kV driving rear wheels
+  - Mamba big-block 1717 1660 kW driving front wheels
+  - top speed gear ratio is 3.855:1, use direct drive gives 2.85:1
+- front and read wheels are (approx.) 4.3 inch (from forum, to measure later) - approx 110 mm
+  - larger wheels
+  - steel belted tyres?
+    - standard rc tyres cannot handle the stress
+- custom telemetry and remote control link
+  
+**note: you need a log book**
 
 ##    1.1 Chassis
 
@@ -162,15 +211,58 @@ Castle Creations motor:
 - Driveshafts
 - Belts
 - differential
+###   1.3.4 Wheels
+
+Wheels convert torque from the drivetrain to force applied to the ground
+Wheels must not deliver more force than the (µ.static * mass * g) force (i.e. must not break the static friction) doing so will cause the wheels to spin;
+  - shreds tyres
+  - µ.kinetic is lower, less force will be transmitted unless the wheels can spin proportionally faster
+  - wastes power as heat
+
+
 ##    1.4 Brakes
+
+The braking components of the design form the most important safety feature of all and so therefore must be given heavy consideration. The brakes must be capable of slowing the car down in a controlled manner from the top speed of the vehicle. Given the kinetic energy of a vehicle moving at speed is taken as KE = 1/2 mv^2 ; for an approximately 15 kg vehicle travelling at 100 m/s, there is 75 kJ of energy requiring dissipation to stop. As the aim of the vehicle is to provide a most aerodynamic model so there should be limited aerodynamic drag. This means there must be specific braking mechanisms in place to stop the vehicle. 
+
+Consider a vehicle travelling at 100 m/s, dissipating 75 kJ of energy to its braking system under emergency conditions (therefore the aim is to apply as much braking force as possible). To avoid lock-up conditions the brake force cannot exceed (µ.static * mass * g) force.
+
+at 5 m/s/s, 100 ^ 2 = 2 * a * s => 10000 = 2 * 5 * s => s = 1000/1 = 1000 m
+            15 * 5 = 75 N over 20 s, 3750 W
+
 ###   1.4.1 Mechanical braking
+
+Mechanical braking options:
+- disk brake, such as seen in IC model engines which lack the ability for engine braking
+- motor brake, removing energy by using the motor as a generator and sending the energy to a dump load
+
 ###   1.4.2 Aerodynamic braking
+
+- flaps which stand proud to increase the drag on the vehicle
+- closing duct orifices used to lower the pressure differential between front and back
+- parachute
+- must not significantly (or at all) increase lift - this may lead to the vehicle taking off
+
 ##    1.5 Outer Shell
 ###   1.5.1 Shell
+
+The outer shell is largely dominated by two factors:
+- containing the inner components to provide protection from weather conditions and windborne particulates
+- provide an aerodynamic advantage that is lost of open designs as the high speed wind causes turbulent drag as it passes around the inner components
+- provide weight (downforce) to increase traction and stability
+
+It is 
+
+
 ###   1.5.2 Undercarriage
+
+The undercarriage is largely in place to ensure predictable ground effects are in place.
+
 ###   1.5.3 Active
 ##    1.6 Electrical systems
 ###   1.6.1 Energy Source
+
+Energy will be sourced from lithium based batteries, further comment when it is known what is available to use, dimensions, etc.
+
 ###   1.6.2 Wiring loom
 ###   1.6.3 Motor controller
 ###   1.6.4 Steering controller
