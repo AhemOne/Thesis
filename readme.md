@@ -207,10 +207,25 @@ Castle Creations motor:
 - [2028 extreme](http://www.castlecreations.com/en/2028-extreme-800kv-motor-060-0054-00)
 
 ###   1.3.2 Gearing
+
+#### 1.3.2.1 Differentials
+
+front and rear differentials of the XO-1 will be utilised
+they have a set ratio of 2.85:1
+
 ###   1.3.3 Rotational transmission
-- Driveshafts
-- Belts
-- differential
+
+The gearing should aim to have the top speed at the maximum power point of the motor, theoretically this exists at half the maximum speed for a perfect motor (this needs to be tested for the motors). Given the motor is 800 KV, this implies at 8 cells (8S = 28.8 VDC, LiPo) ~23000 rpm maximum speed, therefore maximum power exists at ~11500 rpm. 
+
+maximum speed = 250 MPH = ~400 km/h = ~112 m/s (rounded up)
+
+| Wheel diameter (mm) | rpm, wheel | rpm, diff | reduction ratio |
+|---------------------|------------|-----------|-----------------|
+|110 (standard size)  | 19500      | 55500     | 4.83            |
+|200 (possible size)  | 10700      | 30500     | 2.65            |
+
+
+
 ###   1.3.4 Wheels
 
 Wheels convert torque from the drivetrain to force applied to the ground
