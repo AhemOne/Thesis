@@ -52,10 +52,10 @@ The Gantt chart is left deliberately open, this is due to the synergistic design
 - steering
 - aerodynamics
 
-|  Semester 1 objectives | _1_ | _2_ | _3_ | *4* |  5  |  6  |  7  |  8  |  9  | 10  | 11  | 12  | 13  | MSB  |
+|  Semester 1 objectives | _1_ | _2_ | _3_ | _4_ | _5_ | *6* |  7  |  8  |  9  | 10  | 11  | 12  | 13  | MSB  |
 |------------------------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|------|
-| 1. Thesis              | x   |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x   |
-| 1.1 Chassis            |     |     |     |  x  |  x  |  x  |  x  |  x  |     |     |     |     |     |      |
+| 1. Thesis              | ✔️  |  ✔️ |  ✔️ |  ✔️ | ✔️ |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x  |  x   |
+| 1.1 Chassis            |     |     |     |     |     |  x  |  x  |  x  |     |     |     |     |     |      |
 | 1.1.1 R and D          |     |     |  x  |  x  |  x  |     |     |     |     |     |     |     |     |      |
 | 1.2 Steering/Suspension|     |     |     |     |     |     |     |     |  x  |     |     |     |     |      |
 | 1.3 Drivetrain         |     |     |     |     |     |     |     |     |     |  x  |     |     |     |      |
@@ -76,6 +76,20 @@ The Gantt chart is left deliberately open, this is due to the synergistic design
 | 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
 | 1.                     |     |    |    |    |    |    |    |    |    |    |    |    |    |    |
+
+*TO DO:*
+This week:
+- build rig for testing motor
+  - test motor controller
+    - order new one if broken!
+  - need batteries!
+- design chassis
+- build chassis
+  - make chassis components
+  - assemble
+  - need to know how to CNC
+  - need aluminium
+
 
 note:
 - _Weeks marked in italic have passed_
